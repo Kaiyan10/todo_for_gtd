@@ -22,6 +22,7 @@ class Todo {
     required this.title,
     required this.description,
     required this.isDone,
+    required this.generateDateTime,
     required this.dueDateTime,
     this.priority = Priority.middle,
     this.category,
@@ -34,6 +35,7 @@ class Todo {
   final String description;
   bool isDone;
   final DateTime dueDateTime;
+  final DateTime generateDateTime;
   Priority priority;
   String? category;
   final bool isTodayTask;

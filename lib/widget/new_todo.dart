@@ -52,6 +52,7 @@ class _NewTodoState extends State<NewTodo> {
           description: _descriptionController.text,
           isDone: false,
           dueDateTime: _selectedDate!,
+          generateDateTime: DateTime.now(),
           isTodayTask: false,
           isImportant: false),
     );

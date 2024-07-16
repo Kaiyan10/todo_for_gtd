@@ -18,6 +18,7 @@ class _TodosState extends State<Todos> {
         description: "電話番号は、xxx-xxxx-xxxx",
         isDone: false,
         dueDateTime: DateTime(2024, 8, 31),
+        generateDateTime: DateTime(2023, 8, 31),
         priority: Priority.high,
         isTodayTask: false,
         isImportant: false),
@@ -26,6 +27,7 @@ class _TodosState extends State<Todos> {
         description: "",
         isDone: false,
         dueDateTime: DateTime(2024, 8, 31),
+        generateDateTime: DateTime(2023, 8, 31),
         priority: Priority.middle,
         isTodayTask: false,
         isImportant: false)
